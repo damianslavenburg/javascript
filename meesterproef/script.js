@@ -24,12 +24,6 @@ submit.addEventListener("click", function() {
     else
     {
         document.getElementById("container").style = "flex-direction: column;"
-        confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.6 },
-        ticks: 2000,
-        });
     }
     var max = 0;
     var maxIndex = 0;
